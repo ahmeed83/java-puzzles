@@ -1,6 +1,6 @@
 package assignment_03;
 
-import ignore.TestingUtils;
+import ignore.TestingUtils3;
 
 public class App {
 
@@ -16,9 +16,7 @@ public class App {
 		twoSumOne(3, 2, 2) <b>---></b> false <br>
 	 */
 		public static boolean twoSumOne(int a, int b, int c) {
-			
-			return false;
-
+			return a+b==c || b+c ==a || a+c ==b;
 		}
 		
 	
@@ -32,7 +30,7 @@ public class App {
 	
 	//----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
 		public static void main(String args[]){
-			TestingUtils.runTests();
+			TestingUtils3.runTests();
 		}
 			
 

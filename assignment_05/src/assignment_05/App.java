@@ -1,6 +1,6 @@
 package assignment_05;
 
-import ignore.TestingUtils;
+import ignore.TestingUtils5;
 
 public class App {
 
@@ -33,7 +33,7 @@ public class App {
 	
 	//----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
 	public static void main(String args[]){
-		TestingUtils.runTests();
+		TestingUtils5.runTests();
 	}
 }
 

@@ -2,7 +2,7 @@ package ignore;
 
 import assignment_03.App;
 
-public class TestingUtils {
+public class TestingUtils3 {
 	public static void runTests(){
 		
 
